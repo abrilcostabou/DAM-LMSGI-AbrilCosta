@@ -1,0 +1,52 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Enquesta de satisfacció sobre la recollida de brossa porta a porta",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "De l'1 al 5, creu que amb aquest mètode recicla més?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "1 - Gens d'acord",
+            "2 - Poc d'acord",
+            "3 - Neutral",
+            "4 - Bastant d'acord",
+            "5 - Totalment d'acord"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Voldria proposar alguna millora?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Enquesta electoral sobre les eleccions del 29N",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quin partit votarà el pròxim 29N?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "PSOE",
+            "Front Comú",
+            "PP",
+            "En blanc",
+            "Nul"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quin projecte duria a terme per millorar aquest país?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
